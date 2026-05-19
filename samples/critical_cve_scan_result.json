@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "scanner": "demo-vulnerability-scanner",
+      "cve": "CVE-2026-10001",
+      "cvss": 9.8,
+      "severity": "Critical",
+      "asset": "api-server-1",
+      "package": "openssl",
+      "installed_version": "1.1.1-demo",
+      "fixed_version": "1.1.1-demo-patched"
+    }
+  ]
+}

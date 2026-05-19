@@ -1,0 +1,21 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.08",
+      "eventTime": "2026-05-19T09:15:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "userIdentity": {
+        "type": "Root",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "additionalEventData": {
+        "MFAUsed": "No"
+      },
+      "responseElements": {
+        "ConsoleLogin": "Success"
+      }
+    }
+  ]
+}

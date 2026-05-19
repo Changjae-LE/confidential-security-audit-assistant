@@ -1,0 +1,46 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA000000000000EXAMPLE",
+        "arn": "arn:aws:iam::123456789012:user/alice",
+        "accountId": "123456789012",
+        "userName": "alice"
+      },
+      "eventTime": "2026-05-18T01:15:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "AttachUserPolicy",
+      "requestParameters": {
+        "userName": "alice",
+        "policyArn": "arn:aws:iam::aws:policy/AdministratorAccess"
+      },
+      "responseElements": null,
+      "sourceIPAddress": "203.0.113.42",
+      "userAgent": "aws-cli/2.x Python/3.x",
+      "errorCode": null,
+      "errorMessage": null
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "123456789012",
+        "arn": "arn:aws:iam::123456789012:root",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2026-05-18T02:30:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "additionalEventData": {
+        "MFAUsed": "No"
+      },
+      "responseElements": {
+        "ConsoleLogin": "Success"
+      },
+      "sourceIPAddress": "198.51.100.77",
+      "userAgent": "Mozilla/5.0"
+    }
+  ]
+}
